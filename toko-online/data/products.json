@@ -1,0 +1,128 @@
+[
+    {
+        "id" : 1,
+        "name" :"Laptop Gaming",
+        "price": 150000000,
+        "description":"Laptop berspek tinggi cocok untuk bisnis"
+    },
+    {
+        "id": 1,
+        "name": "Laptop Gaming",
+        "price": 150000000,
+        "description": "Laptop berspek tinggi cocok untuk bisnis"
+    },
+    {
+        "id": 2,
+        "name": "Smartphone Samsung Galaxy S21",
+        "price": 12000000,
+        "description": "Smartphone flagship dengan kamera 108MP dan layar 6.8 inci."
+    },
+    {
+        "id": 3,
+        "name": "Smartwatch Apple Watch Series 7",
+        "price": 8000000,
+        "description": "Smartwatch dengan layar Retina, pengukur detak jantung, dan pelacakan aktivitas."
+    },
+    {
+        "id": 4,
+        "name": "Wireless Earbuds Sony WF-1000XM4",
+        "price": 3500000,
+        "description": "Earbuds nirkabel dengan teknologi noise-cancelling dan suara jernih."
+    },
+    {
+        "id": 5,
+        "name": "Kamera Canon EOS R6",
+        "price": 42000000,
+        "description": "Kamera mirrorless dengan 20MP, video 4K, dan autofokus cepat."
+    },
+    {
+        "id": 6,
+        "name": "Smart TV LG OLED 65 inch",
+        "price": 35000000,
+        "description": "TV OLED dengan resolusi 4K, HDR, dan suara Dolby Atmos."
+    },
+    {
+        "id": 7,
+        "name": "Laptop ASUS ZenBook 14",
+        "price": 17000000,
+        "description": "Laptop ultra-tipis dengan Intel i7, layar 14 inci, dan desain premium."
+    },
+    {
+        "id": 8,
+        "name": "Smartphone Xiaomi Mi 11",
+        "price": 8500000,
+        "description": "Smartphone dengan Snapdragon 888, RAM 8GB, dan layar AMOLED."
+    },
+    {
+        "id": 9,
+        "name": "Speaker Bluetooth JBL Charge 5",
+        "price": 3000000,
+        "description": "Speaker portable dengan daya 30W dan daya tahan baterai 20 jam."
+    },
+    {
+        "id": 10,
+        "name": "Air Conditioner Daikin 1.5PK",
+        "price": 5000000,
+        "description": "AC dengan teknologi inverter yang hemat energi dan pendinginan cepat."
+    },
+    {
+        "id": 11,
+        "name": "Powerbank Anker 20000mAh",
+        "price": 600000,
+        "description": "Powerbank kapasitas besar, dengan pengisian cepat dan desain kompak."
+    },
+    {
+        "id": 12,
+        "name": "Headphone Bose QuietComfort 35 II",
+        "price": 7000000,
+        "description": "Headphone noise-cancelling premium dengan kualitas suara jernih."
+    },
+    {
+        "id": 13,
+        "name": "Tablet Apple iPad Pro 12.9",
+        "price": 22000000,
+        "description": "Tablet dengan chip M1, layar Liquid Retina, dan dukungan Apple Pencil."
+    },
+    {
+        "id": 14,
+        "name": "Robot Vacuum Cleaner iRobot Roomba 981",
+        "price": 7500000,
+        "description": "Robot vacuum dengan Wi-Fi, navigasi pintar, dan pemetaan ruangan."
+    },
+    {
+        "id": 15,
+        "name": "Kulkas Samsung Side by Side",
+        "price": 15000000,
+        "description": "Kulkas dengan kapasitas besar, sistem pendinginan cepat, dan hemat energi."
+    },
+    {
+        "id": 16,
+        "name": "Camera Drone DJI Air 2S",
+        "price": 20000000,
+        "description": "Drone dengan kamera 5.4K, sensor besar, dan kemampuan terbang stabil."
+    },
+    {
+        "id": 17,
+        "name": "Oculus Quest 2 VR Headset",
+        "price": 7500000,
+        "description": "Headset VR tanpa kabel dengan resolusi tinggi dan pengalaman imersif."
+    },
+    {
+        "id": 18,
+        "name": "Electric Scooter Xiaomi Mi Pro 2",
+        "price": 8000000,
+        "description": "Skuter listrik dengan kecepatan hingga 25 km/jam dan daya tahan baterai 45 km."
+    },
+    {
+        "id": 19,
+        "name": "Game Console Sony PlayStation 5",
+        "price": 12000000,
+        "description": "Konsol game dengan grafis 4K, loading cepat, dan kompatibilitas game eksklusif."
+    },
+    {
+        "id": 20,
+        "name": "Kamera DSLR Nikon D7500",
+        "price": 20000000,
+        "description": "Kamera DSLR dengan 20.9MP, 4K UHD video, dan kemampuan Wi-Fi."
+    }
+]
