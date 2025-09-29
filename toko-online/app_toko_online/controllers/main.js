@@ -1,22 +1,17 @@
-var express = require('express');
-var router = express.Router();
-var products = require('../data/products.json');
+var products = require('../../data/products.json');
 
-/* GET home page. */
-router.get('/', function (req, res, next) {
-  res.render('index', {
+const index = (req, res) => {
+    res.render('index', {
     title: 'Toko Online Sederhana',
     products: products
   });
-});
+};
 
-/* GET search product. */
-router.get('/search', function(req, res, next) {
+const search = (req, res, next) => {
   const q = req.query.q ? req.query.q.toLowerCase() : "";
 
   console.log("Search query:", q);
 
-  // filtering product
   let filtered = products;
   if (q) {
     filtered = products.filter(p => p.name.toLowerCase().includes(q));
@@ -27,8 +22,7 @@ router.get('/search', function(req, res, next) {
     products: filtered, 
     query: req.query.q || "" 
   });
-});
+};
 
-console.log("Route index loaded");
-
-module.exports = router;
+module.exports = { index };
+module.exports = { search };
