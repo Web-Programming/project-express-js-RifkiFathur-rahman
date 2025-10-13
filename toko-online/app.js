@@ -9,6 +9,8 @@ var indexRouter = require('./app_toko_online/routes/index');
 var usersRouter = require('./app_toko_online/routes/users');
 var engine = require('ejs-blocks'); //menggunakan ejs block
 var app = express();
+require("./app_toko_online/models/db"); //panggil db
+var apiProductRouter = require("./app_toko_online/routes/api/product");
 
 // view engine setup
 app.set('views', path.join(__dirname, 'app_toko_online', 'views')); //perbaikan 1
@@ -27,6 +29,7 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 var productRouter = require("./app_toko_online/routes/product"); //letakkan di atas agar rapi
 app.use("/produk", productRouter);
+app.use("/api/product", apiProductRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
