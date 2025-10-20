@@ -1,9 +1,9 @@
 var express = require('express');
 var router = express.Router();
 var products = require('../../data/products.json');
-var maincotrollers = require('../controllers/main')
+var mainControllers = require('../controllers/main')
 /* GET home page. */
-router.get('/',maincotrollers.index)
+router.get('/',mainControllers.index)
 
 /* GET search product. */
 //router.get('/search', function(req, res, next) {
@@ -24,7 +24,7 @@ router.get('/',maincotrollers.index)
   //});
 //});
 
-router.get('/',maincotrollers.search)
+router.get('/',mainControllers.search)
 
 console.log("Route index loaded");
 

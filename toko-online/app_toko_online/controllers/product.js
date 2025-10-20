@@ -184,7 +184,7 @@ const remove = async(req, res) => {
 
 module.exports = { 
     index, detail, 
-    all, create, 
+    apiall, create, 
     detailproduk, update,
     remove
 }; 

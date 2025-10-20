@@ -24,5 +24,4 @@ const search = (req, res, next) => {
   });
 };
 
-module.exports = { index };
-module.exports = { search };
+module.exports = { index, search };
